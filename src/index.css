@@ -111,4 +111,11 @@
   .btn-outline {
     @apply border border-purple-700 text-purple-700 hover:bg-purple-50 px-6 py-2.5 rounded-md font-medium transition-colors;
   }
+
+  /* Ensure dark text on any white button backgrounds */
+  .btn-primary.bg-white,
+  .btn-primary.bg-gray-100,
+  .btn-primary.bg-purple-100 {
+    @apply text-purple-900 font-semibold;
+  }
 }

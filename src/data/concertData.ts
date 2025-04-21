@@ -1,179 +1,178 @@
-
 import { Concert, Booking, User } from '../lib/types';
 
 export const concerts: Concert[] = [
   {
     id: '1',
-    title: 'Summer Rock Festival',
-    artist: 'Various Artists',
+    title: 'Marina Music Festival',
+    artist: 'Chennai Rhythms',
     date: '2025-06-15',
     time: '17:00',
     venue: {
       id: 'v1',
-      name: 'Grand Arena',
-      address: '123 Main Street',
-      city: 'New York',
-      state: 'NY',
-      zipCode: '10001',
+      name: 'Jawaharlal Nehru Indoor Stadium',
+      address: 'Periyamet, Sydenhams Rd',
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      zipCode: '600003',
       coordinates: {
-        lat: 40.7128,
-        lng: -74.0060
+        lat: 13.0827,
+        lng: 80.2707
       },
-      capacity: 15000
+      capacity: 8000
     },
-    genres: ['Rock', 'Alternative'],
+    genres: ['Carnatic', 'Fusion'],
     price: {
-      standard: 89.99,
-      vip: 199.99
+      standard: 999,
+      vip: 2499
     },
     image: 'https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     featured: true,
-    description: 'Join us for the biggest rock festival of the summer featuring performances by top artists from around the world. Experience amazing music, great food, and unforgettable memories.',
-    artistBio: 'This festival features an incredible lineup of rock and alternative artists, including Grammy-winning performers and emerging talents.'
+    description: 'Enjoy a magical evening of Carnatic fusion by leading Chennai musicians at the historic Nehru Stadium.',
+    artistBio: 'Chennai Rhythms brings together classical Carnatic maestros and modern fusion artists for a dazzling celebration.'
   },
   {
     id: '2',
-    title: 'Jazz Night',
-    artist: 'Blue Note Quartet',
-    date: '2025-05-20',
-    time: '20:00',
+    title: 'Jazz in Madras',
+    artist: 'Southside Sax Quartet',
+    date: '2025-07-10',
+    time: '19:00',
     venue: {
       id: 'v2',
-      name: 'The Blue Room',
-      address: '456 Jazz Avenue',
-      city: 'Chicago',
-      state: 'IL',
-      zipCode: '60601',
+      name: 'Music Academy',
+      address: 'Old No. 306, TTK Rd, Alwarpet',
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      zipCode: '600018',
       coordinates: {
-        lat: 41.8781,
-        lng: -87.6298
+        lat: 13.0443,
+        lng: 80.2518
       },
-      capacity: 500
+      capacity: 1600
     },
     genres: ['Jazz', 'Blues'],
     price: {
-      standard: 45.99,
-      vip: 89.99
+      standard: 799,
+      vip: 1800
     },
     image: 'https://images.unsplash.com/photo-1511192336575-5a79af67a629?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80',
-    description: 'Experience an intimate evening of smooth jazz with the renowned Blue Note Quartet. This candlelit performance will transport you to the golden age of jazz.',
-    artistBio: 'The Blue Note Quartet has been performing together for over 15 years, combining traditional jazz elements with modern influences to create their unique sound.'
+    description: 'Chennai’s coolest jazz gathering with India’s best saxophonists.',
+    artistBio: 'With roots in both Madras and Mumbai, Southside Sax Quartet brings bluesy jazz magic to the city.'
   },
   {
     id: '3',
-    title: 'Pop Sensation Tour',
-    artist: 'Aria Luna',
-    date: '2025-07-10',
-    time: '19:30',
+    title: 'Kollywood Pop Night',
+    artist: 'A.R. Anirudh Live',
+    date: '2025-08-20',
+    time: '18:30',
     venue: {
       id: 'v3',
-      name: 'Staples Center',
-      address: '1111 S Figueroa St',
-      city: 'Los Angeles',
-      state: 'CA',
-      zipCode: '90015',
+      name: 'Chennai Trade Centre',
+      address: 'Nandambakkam',
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      zipCode: '600089',
       coordinates: {
-        lat: 34.0430,
-        lng: -118.2673
+        lat: 13.0157,
+        lng: 80.1641
       },
-      capacity: 20000
+      capacity: 3000
     },
-    genres: ['Pop', 'Dance'],
+    genres: ['Pop', 'Film', 'Tamil'],
     price: {
-      standard: 79.99,
-      vip: 249.99,
-      earlyBird: 59.99
+      standard: 1200,
+      vip: 3200,
+      earlyBird: 899
     },
     image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     featured: true,
-    description: 'Aria Luna brings her chart-topping hits to Los Angeles for one night only! Experience an unforgettable show with stunning choreography, special effects, and all her greatest songs.',
-    artistBio: 'With three Grammy awards and over 50 million albums sold worldwide, Aria Luna is one of the biggest pop stars of her generation.'
+    description: 'A.R. Anirudh brings the biggest Tamil hits in this Chennai exclusive concert.',
+    artistBio: 'Known for show-stopping Kollywood numbers, A.R. Anirudh energizes the Chennai crowd!'
   },
   {
     id: '4',
-    title: 'Classical Symphony',
-    artist: 'Metropolitan Orchestra',
-    date: '2025-06-05',
+    title: 'Classical Nirvana',
+    artist: 'MS Rajan Orchestra',
+    date: '2025-09-15',
     time: '19:00',
     venue: {
       id: 'v4',
-      name: 'Symphony Hall',
-      address: '301 Massachusetts Ave',
-      city: 'Boston',
-      state: 'MA',
-      zipCode: '02115',
+      name: 'Vani Mahal',
+      address: 'G.N. Chetty Rd, T Nagar',
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      zipCode: '600017',
       coordinates: {
-        lat: 42.3430,
-        lng: -71.0853
+        lat: 13.0426,
+        lng: 80.2331
       },
-      capacity: 2600
+      capacity: 800
     },
     genres: ['Classical'],
     price: {
-      standard: 55.99,
-      vip: 119.99
+      standard: 650,
+      vip: 1500
     },
     image: 'https://images.unsplash.com/photo-1465847899084-d164df4dedc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-    description: 'Experience the Metropolitan Orchestra perform masterpieces by Beethoven, Mozart, and Tchaikovsky under the direction of Maestro Richard Blanc.',
-    artistBio: 'The Metropolitan Orchestra is one of the oldest and most prestigious classical ensembles in the country, known for their precise interpretations of classical masterpieces.'
+    description: 'A mesmerizing night dedicated to Indian classical music by the renowned MS Rajan Orchestra.',
+    artistBio: 'The MS Rajan Orchestra, with decades of classical expertise, returns for a rare South India performance.'
   },
   {
     id: '5',
-    title: 'Electronic Music Festival',
-    artist: 'Various DJs',
-    date: '2025-08-20',
-    time: '16:00',
+    title: 'EDM Chennai Beach Fest',
+    artist: 'DJ Raga',
+    date: '2025-12-05',
+    time: '17:00',
     venue: {
       id: 'v5',
-      name: 'Waterfront Park',
-      address: '1000 Waterfront Drive',
-      city: 'Miami',
-      state: 'FL',
-      zipCode: '33132',
+      name: 'Elliots Beach',
+      address: 'Besant Nagar',
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      zipCode: '600090',
       coordinates: {
-        lat: 25.7617,
-        lng: -80.1918
+        lat: 13.0025,
+        lng: 80.2598
       },
-      capacity: 10000
+      capacity: 2000
     },
-    genres: ['Electronic', 'Dance', 'House'],
+    genres: ['Electronic', 'Dance'],
     price: {
-      standard: 120.99,
-      vip: 299.99,
-      earlyBird: 89.99
+      standard: 1400,
+      vip: 3500,
+      earlyBird: 1000
     },
     image: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
     featured: true,
-    description: 'Three days of non-stop electronic music featuring world-class DJs, immersive light shows, and the best dance party of the year.',
-    artistBio: 'This festival brings together over 30 top DJs and electronic music producers from around the globe.'
+    description: 'Experience the thrill of EDM right by the shores of Chennai.',
+    artistBio: 'Top Indian DJ Raga brings his energy to the heart of Chennai’s party beach.'
   },
   {
     id: '6',
-    title: 'Country Music Jamboree',
-    artist: 'Southern Comfort Band',
-    date: '2025-09-12',
+    title: 'Folk Fest Tamil Nadu',
+    artist: 'Nataka Mandram Ensemble',
+    date: '2025-11-10',
     time: '18:00',
     venue: {
       id: 'v6',
-      name: 'River Ranch',
-      address: '789 Country Road',
-      city: 'Nashville',
-      state: 'TN',
-      zipCode: '37203',
+      name: 'Kalakshetra Foundation',
+      address: 'Thiruvanmiyur',
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      zipCode: '600041',
       coordinates: {
-        lat: 36.1627,
-        lng: -86.7816
+        lat: 12.9986,
+        lng: 80.2596
       },
-      capacity: 5000
+      capacity: 1200
     },
-    genres: ['Country', 'Folk'],
+    genres: ['Folk', 'Tamil'],
     price: {
-      standard: 65.99,
-      vip: 149.99
+      standard: 700,
+      vip: 1700
     },
     image: 'https://images.unsplash.com/photo-1506157786151-b8491531f063?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
-    description: 'Grab your boots and hat for a night of authentic country music under the stars. Enjoy barbecue, line dancing, and great music.',
-    artistBio: 'The Southern Comfort Band brings their unique blend of traditional and modern country music to this annual Nashville tradition.'
+    description: 'A festival of Tamil Nadu folk music and dance, highlighting rural traditions.',
+    artistBio: 'The Nataka Mandram Ensemble specializes in classic and modern Tamil Nadu folk arts.'
   }
 ];
 

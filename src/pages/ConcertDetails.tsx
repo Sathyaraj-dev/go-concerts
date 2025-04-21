@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { MapPin, Calendar, Clock, Ticket } from 'lucide-react';
@@ -187,20 +186,20 @@ const ConcertDetails = () => {
                   <div className="space-y-3">
                     <div className="flex justify-between">
                       <span>Standard</span>
-                      <span className="font-semibold">${concert.price.standard}</span>
+                      <span className="font-semibold">₹{concert.price.standard}</span>
                     </div>
                     
                     {concert.price.vip && (
                       <div className="flex justify-between">
                         <span>VIP</span>
-                        <span className="font-semibold">${concert.price.vip}</span>
+                        <span className="font-semibold">₹{concert.price.vip}</span>
                       </div>
                     )}
                     
                     {concert.price.earlyBird && (
                       <div className="flex justify-between">
                         <span>Early Bird</span>
-                        <span className="font-semibold">${concert.price.earlyBird}</span>
+                        <span className="font-semibold">₹{concert.price.earlyBird}</span>
                       </div>
                     )}
                   </div>

@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import { Concert } from '@/lib/types';
 import { formatDate } from '@/lib/utils';
-import Badge from '@/components/ui/Badge';
+import Badge from '@/components/ui/badge';
 
 interface ConcertCardProps {
   concert: Concert;
@@ -51,7 +51,7 @@ const ConcertCard: React.FC<ConcertCardProps> = ({ concert, featured = false }) 
             <div className="text-right">
               <span className="text-sm text-gray-500">From</span>
               <p className="text-purple-700 font-bold">
-                ${concert.price.standard}
+                ₹{concert.price.standard}
               </p>
             </div>
           </div>
