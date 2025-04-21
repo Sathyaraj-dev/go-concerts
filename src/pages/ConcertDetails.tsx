@@ -1,9 +1,10 @@
+
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { MapPin, Calendar, Clock, Ticket } from 'lucide-react';
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
-import Badge from '@/components/ui/Badge';
+import { Badge } from '@/components/ui/badge';
 import Loading from '@/components/ui/Loading';
 import { Button } from '@/components/ui/button';
 import { Concert } from '@/lib/types';

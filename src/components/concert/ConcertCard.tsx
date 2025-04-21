@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import { Concert } from '@/lib/types';
 import { formatDate } from '@/lib/utils';
-import Badge from '@/components/ui/badge';
+import { Badge } from '@/components/ui/badge';
 
 interface ConcertCardProps {
   concert: Concert;
