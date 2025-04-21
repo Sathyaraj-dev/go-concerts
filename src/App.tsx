@@ -1,6 +1,6 @@
 
 import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
+import { ThemeProvider } from "next-themes";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -17,23 +17,24 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <BookingProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/concerts" element={<Concerts />} />
-            <Route path="/concerts/:id" element={<ConcertDetails />} />
-            <Route path="/booking/:id" element={<Booking />} />
-            <Route path="/confirmation" element={<Confirmation />} />
-            <Route path="/account" element={<Account />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </BrowserRouter>
-      </BookingProvider>
-    </TooltipProvider>
+    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+      <TooltipProvider>
+        <Toaster />
+        <BookingProvider>
+          <BrowserRouter>
+            <Routes>
+              <Route path="/" element={<Index />} />
+              <Route path="/concerts" element={<Concerts />} />
+              <Route path="/concerts/:id" element={<ConcertDetails />} />
+              <Route path="/booking/:id" element={<Booking />} />
+              <Route path="/confirmation" element={<Confirmation />} />
+              <Route path="/account" element={<Account />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </BrowserRouter>
+        </BookingProvider>
+      </TooltipProvider>
+    </ThemeProvider>
   </QueryClientProvider>
 );
 
