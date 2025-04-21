@@ -1,4 +1,3 @@
-
 import Navbar from '@/components/layout/Navbar';
 import Footer from '@/components/layout/Footer';
 import Hero from '@/components/home/Hero';
@@ -24,9 +23,9 @@ const Index = () => {
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <div className="text-center mb-10">
-              <h2 className="text-4xl font-bold mb-4">Why Choose Us</h2>
+              <h2 className="text-4xl font-bold mb-4">Why Book With Us?</h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                We provide the best concert booking experience with exclusive benefits and features.
+                Experience the best concerts in Chennai, Tamilnadu with exclusive access, seamless booking, and top-tier support.
               </p>
             </div>
             
@@ -72,9 +71,11 @@ const Index = () => {
         
         <section className="py-16 bg-purple-900 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-4xl font-bold mb-6">Ready to Experience Live Music?</h2>
+            <h2 className="text-4xl font-bold mb-6">
+              Ready for Chennai's Best Live Music?
+            </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Join thousands of music lovers who book their concert tickets with us!
+              Join thousands of music lovers in Chennai, Tamilnadu – book your tickets now!
             </p>
             <button className="btn-primary bg-white text-purple-900 hover:bg-gray-100">
               Browse Upcoming Concerts

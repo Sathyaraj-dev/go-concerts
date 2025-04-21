@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu } from 'lucide-react';
@@ -17,7 +16,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <span className="text-2xl font-heading font-bold text-purple-800">
-            VibeCheck
+            Chennai Concert
           </span>
         </Link>
 
