@@ -2,6 +2,8 @@
 
 ## Project info
 
+**Concert React App**
+
 **URL**: https://lovable.dev/projects/1aadac23-db56-4d46-a328-7cca13fd7c51
 
 ## How can I edit this code?
@@ -60,14 +62,3 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/1aadac23-db56-4d46-a328-7cca13fd7c51) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
