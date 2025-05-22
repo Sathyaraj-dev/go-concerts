@@ -2,7 +2,7 @@
 
 ## Project info
 
-**Concert React App**
+**Live Concert Booking App**
 
 **URL**: https://lovable.dev/projects/1aadac23-db56-4d46-a328-7cca13fd7c51
 
