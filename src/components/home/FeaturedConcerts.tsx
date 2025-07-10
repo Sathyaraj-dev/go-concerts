@@ -53,7 +53,7 @@ const FeaturedConcerts = () => {
             </div>
             
             <div className="mt-12 text-center">
-              <Button size="lg" asChild>
+              <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 px-8 py-3" asChild>
                 <Link to="/concerts">View All Concerts</Link>
               </Button>
             </div>
