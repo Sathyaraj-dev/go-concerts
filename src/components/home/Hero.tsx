@@ -10,8 +10,8 @@ const Hero = () => {
       
       {/* Background image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center opacity-50"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')" }}
+        className="absolute inset-0 bg-cover bg-center opacity-60"
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')" }}
       ></div>
       
       {/* Hero content */}
