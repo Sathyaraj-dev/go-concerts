@@ -27,7 +27,7 @@ const Hero = () => {
             <Button size="lg" className="bg-white text-purple-900 hover:bg-gray-100" asChild>
               <Link to="/concerts">Browse Concerts</Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-purple-800" asChild>
+            <Button size="lg" className="bg-purple-600 text-white hover:bg-purple-700 border-none" asChild>
               <Link to="#featured">Featured Events</Link>
             </Button>
           </div>
