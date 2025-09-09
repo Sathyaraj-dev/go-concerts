@@ -5,7 +5,7 @@ export const concerts: Concert[] = [
     id: '1',
     title: 'Marina Music Festival',
     artist: 'Chennai Rhythms',
-    date: '2025-06-15',
+    date: '2025-11-15',
     time: '17:00',
     venue: {
       id: 'v1',
@@ -34,7 +34,7 @@ export const concerts: Concert[] = [
     id: '2',
     title: 'Jazz in Madras',
     artist: 'Southside Sax Quartet',
-    date: '2025-07-10',
+    date: '2025-11-25',
     time: '19:00',
     venue: {
       id: 'v2',
@@ -62,7 +62,7 @@ export const concerts: Concert[] = [
     id: '3',
     title: 'Kollywood Pop Night',
     artist: 'A.R. Anirudh Live',
-    date: '2025-08-20',
+    date: '2025-12-15',
     time: '18:30',
     venue: {
       id: 'v3',
@@ -92,7 +92,7 @@ export const concerts: Concert[] = [
     id: '4',
     title: 'Classical Nirvana',
     artist: 'MS Rajan Orchestra',
-    date: '2025-09-15',
+    date: '2025-12-20',
     time: '19:00',
     venue: {
       id: 'v4',
