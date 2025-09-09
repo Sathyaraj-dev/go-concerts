@@ -3,6 +3,7 @@ import Footer from '@/components/layout/Footer';
 import Hero from '@/components/home/Hero';
 import SearchBar from '@/components/home/SearchBar';
 import FeaturedConcerts from '@/components/home/FeaturedConcerts';
+import MusiciansGallery from '@/components/home/MusiciansGallery';
 
 const Index = () => {
   return (
@@ -19,6 +20,8 @@ const Index = () => {
         </section>
         
         <FeaturedConcerts />
+        
+        <MusiciansGallery />
         
         <section className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">

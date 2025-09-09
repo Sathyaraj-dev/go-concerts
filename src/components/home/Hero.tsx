@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
+import tamilMusiciansBanner from '@/assets/tamil-musicians-banner.jpg';
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
       {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-center opacity-60"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')" }}
+        style={{ backgroundImage: `url(${tamilMusiciansBanner})` }}
       ></div>
       
       {/* Hero content */}
